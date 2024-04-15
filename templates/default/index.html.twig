@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Choose Your Shoes !{% endblock %}
+{% block stylesheets %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+{% endblock %}
+{% block body %}
+{% include "hero/_hero.html.twig" %}
+{% include "section1/_section1.html.twig" %}
+{% include "section2/_section2.html.twig" %}
+{% include "section3/_section3.html.twig" %}
+<span class="encadre mt-5 mb-5">Quelques <br>
+<span class="textItalic">Articles !</span>
+</span>
+{% include "carousel/_carousel.html.twig" %}
+{% include "section4/_section4.html.twig" %}
+{% include "footer/_footer.html.twig" %}
+
+
+{% endblock %}
+

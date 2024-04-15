@@ -1,3 +1,120 @@
-body {
-    background-color: skyblue;
+@font-face {
+  font-family: "adrip1";
+  src: url("adrip1.ttf") format("truetype");
 }
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.fa-cart-shopping {
+  margin-left: 20px;
+  color: rgb(120, 120, 120);
+}
+
+form {
+  margin-right: 50px;
+}
+
+.grey {
+  background: #cfcfcf;
+}
+
+.brand {
+  font-size: 3rem;
+  border: 2px solid goldenrod;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 10px 10px 10px rgba(1, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+  /* créer un effet scale avec une transition */
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  /* Mise à l'échelle de l'élément */
+  transform: scale(1.02);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #d5d5d5;
+}
+
+.carouselExampleCaptions {
+ background-color: #7a7a7a; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon:hover {
+  background-color: #7a7a7a;
+}
+
+/* créer un bg color gradient de blanc à bleu ciel sur btn btn-primary */
+.btn-primary {
+  background: rgb(226, 226, 226);
+  border: none;
+  color: #595959;
+}
+/* changer la couleur du texte au survol sur btn-primary */
+.btn-primary:hover {
+  background: rgb(161, 161, 161);
+  color: #ffffff;
+}
+
+/* creer un box shadow top en blanc 20px dans container-fluid id photoHero */
+/* .section1 {
+    box-shadow: 600px 0px 0px 0px rgb(224, 32, 32);
+} */
+
+.encadre {
+  display: block;
+  text-align: center;
+  font-size: 3rem;
+  width: 35%;
+  margin: 0 auto;
+  font-family: "adrip1", sans-serif;
+  border: 2px solid goldenrod;
+}
+
+.textItalic {
+  font-size: 4rem;
+  /* font-style: italic; */
+  /* font-weight: bold; */
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.8;
+}
+
+/* C'est pour la barre de défilement globale */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8888883d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #068aef62;
+}
+
+.carousel-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+
